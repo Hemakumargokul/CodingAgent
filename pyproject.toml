@@ -1,0 +1,14 @@
+[project]
+name = "codingagent"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.13"
+dependencies = [
+    "boto3>=1.40.22",
+    "pydantic-ai>=0.8.1",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.4.1",
+]
